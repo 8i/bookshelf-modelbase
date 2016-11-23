@@ -19,7 +19,7 @@ Outside of overriding `bookshelf.Model`, there is nothing you can do to
 your bookshelf instance that will break `bookshelf-modelbase`.
 
 ### Features
-* Adds timestamps (`created_at` and `updated_at`)
+* Adds timestamps (`createdAdd` and `updatedAdd`)
 
 * Validate own attributes on save using [Joi](https://github.com/hapijs/joi).
 You can pass in a validation object as a class attribute when you extend
